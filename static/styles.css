@@ -22,7 +22,7 @@ body {
 .key {
     border: 0.2rem solid black;
     width: calc(100%/9);
-    margin: 0.4rem;
+    margin:0 0.4rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
