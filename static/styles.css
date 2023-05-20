@@ -6,8 +6,9 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-image: url('../pctures/background.jpg');
-    background-size: cover;
+    background-image: url('../pictures/background2.png');
+    background-size: contain;
+    background-blend-mode:hard-light;
     
 }
 
@@ -16,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-color: rgba(255,255,255, 0.4);
 }
 
 .key {
@@ -27,12 +28,22 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    background-color: rgba(0,0,0, 0.5);
+    
 }
 
 kbd {
     font-size: 2rem;
+    color: white
 
+}
+
+
+span {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: gold
 }
 
 @media (min-width: 720px) {
@@ -45,11 +56,6 @@ kbd {
     }
 
     span {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
-}
-
-span {
-    font-size: 0.7rem;
-    text-transform: uppercase;
 }
