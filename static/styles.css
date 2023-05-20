@@ -21,7 +21,7 @@ body {
 
 .key {
     border: 0.2rem solid black;
-    width: 3.5rem;
+    max-width: calc(100%/9);
     margin: 0.4rem;
     overflow: hidden;
     display: flex;
@@ -39,9 +39,17 @@ kbd {
     .key {
         width: 10rem
     }
+
+    kbd {
+        font-size: 4rem;
+    }
+
+    span {
+        font-size: 2rem;
+    }
 }
 
 span {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
 }
