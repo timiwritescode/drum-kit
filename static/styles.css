@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 10px;
+    font-family: sans-serif
 }
 
 
@@ -24,6 +29,7 @@ body {
     border: 0.2rem solid black;
     width: calc(100%/9);
     margin:0 0.4rem;
+    padding: 0.4rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -46,7 +52,7 @@ span {
 
 @media (min-width: 720px) {
     .key {
-        width: 10rem
+        width: 10rem;
     }
 
     kbd {
@@ -56,4 +62,8 @@ span {
     span {
         font-size: 1.5rem;
     }
+}
+
+.active {
+    border: 1px solid gold;
 }
