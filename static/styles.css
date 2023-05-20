@@ -1,6 +1,6 @@
 html {
-        font-size: 10px;
-    }
+    font-size: 10px;
+}
 
 
 body {
@@ -21,7 +21,7 @@ body {
 
 .key {
     border: 0.2rem solid black;
-    min-width: 5rem;
+    width: 4rem;
     margin: 0.4rem;
     overflow: hidden;
     display: flex;
