@@ -21,7 +21,7 @@ body {
 
 .key {
     border: 0.2rem solid black;
-    width: 4rem;
+    width: 3.5rem;
     margin: 0.4rem;
     overflow: hidden;
     display: flex;
