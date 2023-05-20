@@ -31,7 +31,7 @@ keys.forEach((key) => {
             key.className = 'key active';
             audios.forEach((audio) => {
                 if (key.dataset.key == audio.dataset.key) {
-                    audio.currentTime =0
+                    audio.currentTime = -0.8
                     audio.play()
                 }
             key.className = 'key'    
